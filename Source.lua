@@ -737,7 +737,7 @@ do
 			for _, social in ipairs(Config.Socials) do
 				table.insert(LoaderConfig.Socials, {
 					Name = social.Name or '@None';
-					Discord = social.Discord or 'Sierra Community';
+					Discord = social.Discord or 'https://discord.gg/kzZybeUS8M';
 					Style = social.Style or "Default";
 					Size = social.Size or "Medium";
 					CopyToClip = social.CopyToClip ~= nil and social.CopyToClip or true;
